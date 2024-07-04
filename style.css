@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+#input{
+    padding: 10px 60px ;
+    margin-left: 40%;
+    margin-top: 1.5%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+}
+
+button{
+    text-align: center;
+    padding: 20px 22px;
+    margin:10;
+    cursor: pointer;
+}
+#equal-btn{
+    padding: 20px 62px;
+}
